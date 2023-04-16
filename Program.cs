@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using RestaurantReviewApp;
 using RestaurantReviewApp.Data;
+using RestaurantReviewApp.Interfaces;
+using RestaurantReviewApp.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddTransient<Seed>();
+builder.Services.AddScoped<IRestaurantRepository, RestaurantRepository>();
 
 //DB
 var connectionStringMysql = builder.Configuration.GetConnectionString("ConnectionMysql");

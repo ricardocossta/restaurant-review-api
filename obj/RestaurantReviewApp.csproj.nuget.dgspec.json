@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspaces\\ws-c#\\RestaurantReviewApp\\RestaurantReviewApp\\RestaurantReviewApp.csproj": {}
+    "C:\\Users\\Ricardo\\Desktop\\RestaurantReviewApp\\RestaurantReviewApp.csproj": {}
   },
   "projects": {
-    "D:\\workspaces\\ws-c#\\RestaurantReviewApp\\RestaurantReviewApp\\RestaurantReviewApp.csproj": {
+    "C:\\Users\\Ricardo\\Desktop\\RestaurantReviewApp\\RestaurantReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspaces\\ws-c#\\RestaurantReviewApp\\RestaurantReviewApp\\RestaurantReviewApp.csproj",
+        "projectUniqueName": "C:\\Users\\Ricardo\\Desktop\\RestaurantReviewApp\\RestaurantReviewApp.csproj",
         "projectName": "RestaurantReviewApp",
-        "projectPath": "D:\\workspaces\\ws-c#\\RestaurantReviewApp\\RestaurantReviewApp\\RestaurantReviewApp.csproj",
+        "projectPath": "C:\\Users\\Ricardo\\Desktop\\RestaurantReviewApp\\RestaurantReviewApp.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "D:\\workspaces\\ws-c#\\RestaurantReviewApp\\RestaurantReviewApp\\obj\\",
+        "outputPath": "C:\\Users\\Ricardo\\Desktop\\RestaurantReviewApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -83,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
