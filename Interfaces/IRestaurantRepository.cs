@@ -9,7 +9,5 @@ namespace RestaurantReviewApp.Interfaces
         Restaurant GetRestaurantByName(string name);
         decimal GetResturantRating(int id);
         bool RestaurantExists(int id);
-
-
     }
 }

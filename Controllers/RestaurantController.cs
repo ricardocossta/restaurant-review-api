@@ -17,14 +17,14 @@ namespace RestaurantReviewApp.Controllers
             _restaurantRepository = restaurantRepository;
         }
 
-        [HttpGet]
+        [HttpGet("get-all-restaurants")]
         public IActionResult GetRestaurants()
         {
             var restaurants = _restaurantRepository.GetRestaurants();
             return Ok(restaurants.Select(r => new RestaurantDto(r)));
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("get-restaurant/{id}")]
         public IActionResult GetRestaurantById(int id)
         {
             if (!_restaurantRepository.RestaurantExists(id))
@@ -34,7 +34,7 @@ namespace RestaurantReviewApp.Controllers
             return Ok(new RestaurantDto(restaurant));
         }
 
-        [HttpGet("{id}/rating")]
+        [HttpGet("get-restaurant-rating/{id}")]
         public IActionResult GetRestaurantRating(int id)
         {
             if (!_restaurantRepository.RestaurantExists(id))
